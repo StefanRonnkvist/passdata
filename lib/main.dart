@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      title: 'App Comity Pass Data',
       theme: ThemeData.dark(),
       home: Scaffold(
         appBar: AppBar(
