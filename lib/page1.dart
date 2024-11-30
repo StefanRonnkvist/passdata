@@ -43,11 +43,8 @@ class _PageOneState extends State<PageOne> {
             child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.grey[700],
-                  // background (button) color
-                  foregroundColor: Colors.white, // foreground (text) color
+                  foregroundColor: Colors.white,
                 ),
-                //elevation: 15,
-                //color: Colors.grey[700],
                 child: const Text(
                   'Next Page ->',
                   style: TextStyle(color: Colors.black, fontSize: 17),

@@ -66,8 +66,7 @@ class _PageTwoState extends State<PageTwo> {
             child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.grey[700],
-                  // background (button) color
-                  foregroundColor: Colors.white, // foreground (text) color
+                  foregroundColor: Colors.white,
                 ),
                 child: const Text(
                   '<- Save temporarily and go to previous Page',
